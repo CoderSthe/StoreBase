@@ -16,8 +16,6 @@ The `store` database consists of the following tables:
 - **payments**: Logs payments made by customers.
 - **products**: Contains details of available products.
 
-For a full breakdown of the database schema and relationships, refer to the [Database Schema Documentation](docs/Database_Schema.md).
-
 ## Exchange Rate Assumption
 - Assumes an exchange rate of **R12 to 1 USD** for price conversions.
 
@@ -29,7 +27,7 @@ For a full breakdown of the database schema and relationships, refer to the [Dat
 ### Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/StoreBase.git
+   git clone git@github.com:CoderSthe/StoreBase.git
    cd StoreBase
    ```
 2. Import the database schema:
